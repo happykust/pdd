@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+video {
+    z-index: -2;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#video-opacity {
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+
+header {
+    height: 56px;
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    height: 32px;
+    margin-left: 10px;
+}
+
+.brand-title {
+    font-size: 26px;
+    margin-left: 10px;
+    color: white;
+}
+
+main {
+    height: calc(100vh - 95px);
+}
+
+#content {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 4%;
+}
+
+aside {
+    width: 21%;
+    background: white;
+    height: 95%;
+    border-radius: 3px
+}
+
+section {
+    background: white;
+    width: 75%;
+    height: 95%;
+    border-radius: 3px;
+}
+
+nav {
+    margin-top: 20px;
+    display: grid;
+}
+
+nav > a {
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    padding: 14px 14%;
+    transition: all .2s ease-out;
+}
+
+nav > a:hover {
+    background: #0d6efd;
+    color: white!important;
+}
+
+footer {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    width: fit-content;
+    margin: 5px auto 5px auto;
+}
+

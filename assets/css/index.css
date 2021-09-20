@@ -1,0 +1,28 @@
+section {
+    background: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+section > div {
+    width: 100%;
+    text-align: center;
+}
+
+section > div > h1 {
+    font-size: 75px;
+}
+
+section > div > h3#desc {
+    color: darkgray;
+    margin-bottom: 20vh;
+}
+
+section > div > h3#desc.fade-out {
+    opacity: 0;
+}
+
+section > div > h3#desc.fade-in {
+    opacity: 1;
+}
